@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+body {
+    background-color: #111;
+}
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.top-bar {
+    font-size: 2vw;
+    width: 100%;
+    position: fixed;
+    background-color: #34347850;
+    top: 0;
+    left: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+.top-bar a {
+    color: #e94824;
+    text-decoration: none;
+    padding: 13px;
+    transition-duration: 0.25s;
+}
+.top-bar a:hover {
+    color: #ccac7b;
+}
+.title {
+    font: 100px message-box;
+    text-shadow: 4px 4px 2px #e4bf475b;
+    margin-bottom: 12px;
+    margin-top: 40px;
+    transition-duration: 0.5s;
+}
+.title:hover {
+    text-shadow: 0 0 12px #aaa;
+}
+.bienvenida {
+    font-size: 2vw;
+    text-align: center;
+}
+.softwarer {
+    font: 2vw message-box;
+    text-align: center;
+    margin-top: 1vw;
+}
+.softwar{
+    font-size: 3vw;
+}
+.softwarere{
+    font-size: 2vw;
+}
+.sobre{
+    font-size: 3.7vw;
+    text-align: center;
+    margin-top: 2vw;
+}
+.acerca{
+    font-size: 1.6vw;
+    text-align: center;
+    padding: 25px;
+}
+.cpy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.cpy-title {
+    position: absolute;
+    bottom: -7%;
+    left: 50%;
+    transform: translateX(-50%);
+    font: 2vw Lexend;
+    width: 100%;
+    text-align: center;
+}
+.soft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.soft img {
+    width: 8%; 
+    max-width: 8%;
+    height: auto;
+}
+.second-title {
+    font-size: 2vw;
+    margin-top: 10px;
+}
+.second-title a{
+    color: #e4bf47;;
+    text-decoration: none;
+    transition-duration: 0.25s;
+}
+.second-title a:hover {
+    color: #e4bf47d7;;
+}
+.in-flex {
+    flex: 1;
+    min-width: 250px;
+}
+.in-flex:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.in-flex div{
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 7vw;
+        margin-bottom: 3vw;
+    }
+
+    .in-flex,
+    .in-flex:first-child,
+    .in-flex div {
+        padding: 4vw;
+        margin: 4vw;
+    }
+    .wellcome {
+        margin-top: 3vw;
+        margin-bottom: 2vw;
+    }
+    .cpy-title {
+        font-size: 2vw;
+        line-height: 1.5;
+    }
+}
