@@ -77,7 +77,7 @@ body {
 }
 .cpy-title {
     position: absolute;
-    bottom: -7%;
+    bottom: -10%;
     left: 50%;
     transform: translateX(-50%);
     font: 2vw Lexend;
