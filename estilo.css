@@ -88,6 +88,8 @@ body {
     font: 2vw Lexend;
     width: 100%;
     text-align: center;
+    background-color: #111;
+    background-size: 100% 100%;
 }
 .soft{
     display: flex;
