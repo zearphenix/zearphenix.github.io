@@ -19,14 +19,16 @@
     <nav class="top-bar">
         <a href="/">Inicio</a>
     	<a href="software.html">Software</a>
-        <a href="about.html">Sobre Zearphenix</a>
+        <a href="#about">Sobre Zearphenix</a>
         <a href="/">Donar</a>
     </nav>
+
     <div class="overlay" id="overlay">
         <div class="overlay-content">
             Contenido del recuadro gris
         </div>
     </div>
+
     <section class="home">
         <h1 class="title"><span style="color: #e4bf47;">
             ZearPhenix</span></h1>
@@ -34,20 +36,49 @@
         width="100"
         height="100"/>
     </section>
+
     <div class="wellcome">
         <h1 class="bienvenida">
             <span style="color: #ffaa00dc;">
                 Bienvenido a ZearPhenix</span></h1>
     </div>
+
     <div class="softwarer">
         <h1 class="softwar">
         <span style="color: #e4bf47;">
             Para ver y descargar los programas haga clic en "Software"
         </span></h1>
     </div>
+
+    <div class="about">
+        <h1 class="sobre">
+            <span style="color: #e4bf47f5;">
+                Sobre Zearphenix:</span>
+        </h1>
+        <h2 id="about" class="acerca">
+            <span style="color: #e4bf47ec;">
+                ZearPhenix es una pagina creada para guardar cualquier software que cree, a su vez dando la posibilidad que lo descarguen otras personas.
+                La opcion de "Donar" está desabilitada, si intenta acceder solo será reenviado a "Inicio".
+            </span>
+        </h2>
+    </div>
+
     <section class="cpy">
         <h1 class="cpy-title"><span style="color: #e4bf47;">
         © 2026 ZearPhenix</span></h1>
     </section>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+         anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            target.scrollIntoView({
+            behavior: 'smooth'
+         });
+       });
+     });
+    </script>
+
 </body>
 </html>
