@@ -67,11 +67,21 @@ body {
     font-size: 3.7vw;
     text-align: center;
     margin-top: 2vw;
+    position: absolute;
+    bottom: -5%;
+    width: 100%;
+    text-align: center;
+    background-color: #111;
+    background-size: 100% 100%;
 }
 .acerca{
     font-size: 2vw;
     text-align: center;
     padding: 3vw;
+    position: absolute;
+    bottom: -25%;
+    background-color: #111;
+    background-size: 100% 100%;
 }
 .cpy {
     display: flex;
@@ -82,7 +92,7 @@ body {
 }
 .cpy-title {
     position: absolute;
-    bottom: -7%;
+    bottom: -30%;
     font: 3vw Lexend;
     width: 100%;
     text-align: center;
