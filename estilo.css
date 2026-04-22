@@ -94,12 +94,18 @@ body {
     justify-content: center;
     align-items: center;
     margin: 1vw;
+    gap: 10vw;
 }
 .soft img {
     width: 8vw; 
     max-width: 8vw;
     height: 8vw;
 }
+
+.Element {
+    text-align: center;
+}
+
 .second-title {
     font-size: 2vw;
     margin-top: 1vw;
