@@ -63,12 +63,20 @@ body {
 .softwarere{
     font-size: 2vw;
 }
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -25%;
+    display: flex;
+    flex-direction: column;
+}
 .sobre{
     font-size: 3.7vw;
     text-align: center;
     margin-top: 2vw;
-    position: absolute;
-    bottom: -5%;
     width: 100%;
     text-align: center;
     background-color: #111;
@@ -78,8 +86,8 @@ body {
     font-size: 2vw;
     text-align: center;
     padding: 3vw;
-    position: absolute;
-    bottom: -20%;
+    background-color: #111;
+    background-size: 100% 100%;
 }
 .cpy {
     display: flex;
@@ -90,7 +98,16 @@ body {
 }
 .cpy-title {
     position: absolute;
-    bottom: -25%;
+    bottom: -27%;
+    font: 3vw Lexend;
+    width: 100%;
+    text-align: center;
+    background-color: #111;
+    background-size: 100% 100%;
+}
+.cpy-title2 {
+    position: absolute;
+    bottom: -7%;
     font: 3vw Lexend;
     width: 100%;
     text-align: center;
