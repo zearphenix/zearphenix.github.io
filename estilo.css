@@ -79,9 +79,7 @@ body {
     text-align: center;
     padding: 3vw;
     position: absolute;
-    bottom: -25%;
-    background-color: #111;
-    background-size: 100% 100%;
+    bottom: -20%;
 }
 .cpy {
     display: flex;
@@ -92,7 +90,7 @@ body {
 }
 .cpy-title {
     position: absolute;
-    bottom: -30%;
+    bottom: -25%;
     font: 3vw Lexend;
     width: 100%;
     text-align: center;
